@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -63,7 +64,13 @@ public class BaseTest {
 	}
 	if(webConfig.getProperty("browser").equalsIgnoreCase("chrome")) {
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		//driver=new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		logger.info("Browser started in chrome");
 		driver.get(webConfig.getProperty("AppUrl"));
