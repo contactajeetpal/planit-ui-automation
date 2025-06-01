@@ -23,7 +23,6 @@
 			<scope>test</scope>
 		</dependency>
 
-
 		<!-- WebDriverManager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -31,17 +30,12 @@
 			<version>5.8.0</version>
 		</dependency>
 
-		<!--
-		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<!-- Log4j -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.20.0</version>
 		</dependency>
-
-
-		<!--
-		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
 
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -49,18 +43,28 @@
 			<version>2.20.0</version>
 		</dependency>
 
-
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<!-- Apache POI -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>5.4.1</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
 		<plugins>
+
+			<!-- ✅ Added plugin to set Java version compatibility -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<source>11</source>   <!-- Or use 17 if you're on Java 17 -->
+					<target>11</target>
+				</configuration>
+			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -71,6 +75,7 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
