@@ -64,15 +64,16 @@ public class BaseTest {
 	}
 	if(webConfig.getProperty("browser").equalsIgnoreCase("chrome")) {
 		WebDriverManager.chromedriver().setup();
-		//driver=new ChromeDriver();
+
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
+		options.addArguments("--headless=new"); // use new headless mode
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--remote-debugging-port=9222");
 
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
-		logger.info("Browser started in chrome");
+		logger.info("Browser started in chrome headless mode");
 		driver.get(webConfig.getProperty("AppUrl"));
 		
 	}else if(webConfig.getProperty("browser").equalsIgnoreCase("safari")) {
