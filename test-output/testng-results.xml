@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T11:24:07 AEST" name="Suite" finished-at="2025-06-01T11:25:25 AEST" duration-ms="78289">
+    <groups>
+    </groups>
+    <test started-at="2025-06-01T11:24:07 AEST" name="Test" finished-at="2025-06-01T11:25:25 AEST" duration-ms="78289">
+      <class name="com.planit.tests.testcases.ContactFormTest">
+        <test-method signature="testEmptyFormValidation()[pri:1, instance:com.planit.tests.testcases.ContactFormTest@3f1c5af9]" started-at="2025-06-01T11:24:33 AEST" name="testEmptyFormValidation" finished-at="2025-06-01T11:24:38 AEST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFormValidation -->
+        <test-method signature="testValidFormSubmission()[pri:2, instance:com.planit.tests.testcases.ContactFormTest@3f1c5af9]" started-at="2025-06-01T11:24:38 AEST" name="testValidFormSubmission" finished-at="2025-06-01T11:24:53 AEST" duration-ms="15588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFormSubmission -->
+        <test-method signature="testValidFormSubmission()[pri:2, instance:com.planit.tests.testcases.ContactFormTest@3f1c5af9]" started-at="2025-06-01T11:24:53 AEST" name="testValidFormSubmission" finished-at="2025-06-01T11:25:05 AEST" duration-ms="11940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFormSubmission -->
+        <test-method signature="testValidFormSubmission()[pri:2, instance:com.planit.tests.testcases.ContactFormTest@3f1c5af9]" started-at="2025-06-01T11:25:05 AEST" name="testValidFormSubmission" finished-at="2025-06-01T11:25:07 AEST" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFormSubmission -->
+        <test-method signature="testValidFormSubmission()[pri:2, instance:com.planit.tests.testcases.ContactFormTest@3f1c5af9]" started-at="2025-06-01T11:25:07 AEST" name="testValidFormSubmission" finished-at="2025-06-01T11:25:19 AEST" duration-ms="11635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFormSubmission -->
+        <test-method signature="testValidFormSubmission()[pri:2, instance:com.planit.tests.testcases.ContactFormTest@3f1c5af9]" started-at="2025-06-01T11:25:19 AEST" name="testValidFormSubmission" finished-at="2025-06-01T11:25:25 AEST" duration-ms="5989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFormSubmission -->
+      </class> <!-- com.planit.tests.testcases.ContactFormTest -->
+      <class name="com.planit.tests.testcases.ShoppingCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.planit.tests.testcases.ShoppingCartTest@71984c3]" started-at="2025-06-01T11:24:07 AEST" name="setup" finished-at="2025-06-01T11:24:24 AEST" duration-ms="17360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddProductsToCart()[pri:3, instance:com.planit.tests.testcases.ShoppingCartTest@71984c3]" started-at="2025-06-01T11:24:24 AEST" name="testAddProductsToCart" finished-at="2025-06-01T11:24:33 AEST" duration-ms="8330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductsToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.planit.tests.testcases.ShoppingCartTest@71984c3]" started-at="2025-06-01T11:25:25 AEST" name="teardown" finished-at="2025-06-01T11:25:25 AEST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.planit.tests.testcases.ShoppingCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
