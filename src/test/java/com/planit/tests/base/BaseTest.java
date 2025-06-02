@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -64,16 +63,9 @@ public class BaseTest {
 	}
 	if(webConfig.getProperty("browser").equalsIgnoreCase("chrome")) {
 		WebDriverManager.chromedriver().setup();
-
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless=new"); // use new headless mode
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--remote-debugging-port=9222");
-
-		driver = new ChromeDriver(options);
+		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		logger.info("Browser started in chrome headless mode");
+		logger.info("Browser started in chrome");
 		driver.get(webConfig.getProperty("AppUrl"));
 		
 	}else if(webConfig.getProperty("browser").equalsIgnoreCase("safari")) {

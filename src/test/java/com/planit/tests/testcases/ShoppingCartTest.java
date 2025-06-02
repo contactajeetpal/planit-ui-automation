@@ -18,25 +18,19 @@ public class ShoppingCartTest extends BaseTest{
 
 		shop.navigateToShop();
 
-	
 		String product1 = BaseTest.getData("product1");
 		int qty1 = Integer.parseInt(BaseTest.getData("product1Qty"));
 		double price1 = shop.buyProductAndGetPrice(product1, qty1);
-
 		String product2 = BaseTest.getData("product2");
 		int qty2 = Integer.parseInt(BaseTest.getData("product2Qty"));
 		double price2 = shop.buyProductAndGetPrice(product2, qty2);
-
 		String product3 = BaseTest.getData("product3");
 		int qty3 = Integer.parseInt(BaseTest.getData("product3Qty"));
-		double price3 = shop.buyProductAndGetPrice(product3, qty3);
-		
-		shop.navigateCartPage();
-		
+		double price3 = shop.buyProductAndGetPrice(product3, qty3);		
+		shop.navigateCartPage();		
 		softAssert.assertTrue(shop.isProductPriceAndSubtotalCorrect(product1, price1));
 		softAssert.assertTrue(shop.isProductPriceAndSubtotalCorrect(product2, price2));
 		softAssert.assertTrue(shop.isProductPriceAndSubtotalCorrect(product3, price3));
-
 		double expectedTotal = shop.getSumOfAllSubtotals();
 		double actualTotal = shop.getTotalAmount();
 		softAssert.assertEquals(actualTotal, expectedTotal, "Total mismatch with sum of subtotals");

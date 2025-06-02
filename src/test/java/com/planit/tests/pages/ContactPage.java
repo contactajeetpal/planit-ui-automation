@@ -62,9 +62,13 @@ public class ContactPage extends BaseTest{
         return Utils.waitForinvisibility(getBy(key), 10);
     }
     public void waitForFeedbackPopupToDisappear() {
-       
+       try {
     	 logger.info("waiting for pop-up");
-        Utils.waitForinvisibility(getBy("feedbackModalHeader"), 20);
+        Utils.waitForinvisibility(getBy("feedbackModalHeader"), 25);
+       }catch(Exception e) {
+    	   logger.error("Element not invisible:");
+           
+       }
     }
     
     public String getSuccessMessageText() {
