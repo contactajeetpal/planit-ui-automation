@@ -1,6 +1,8 @@
 # planit-ui-automation
 Planit Test Automation Project
+
 Please find below a detailed explanation of my solution for the automation technical assessment:
+<img width="1392" alt="Screenshot 2025-06-02 at 8 50 38 PM" src="https://github.com/user-attachments/assets/4ac0b97a-ff7d-4e9a-9f23-3cc2c4b297ce" />
 
 1. Base Class Design
 Data Management: Reads dynamic input such as product names, quantities, and contact form data from a data.properties file, ensuring reusability and flexibility.
