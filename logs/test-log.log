@@ -1160,3 +1160,388 @@
 [2025-06-02 09:53:09] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
 [2025-06-02 09:53:09] [INFO] com.planit.tests.base.BaseTest - Browser closed
 [2025-06-02 09:53:09] [INFO] com.planit.tests.listeners.TestListener - === Test Suite finished ===
+[2025-06-02 20:56:51] [INFO] com.planit.tests.listeners.TestListener - === Test Suite started ===
+[2025-06-02 20:57:02] [INFO] com.planit.tests.base.BaseTest - Browser started in chrome
+[2025-06-02 20:57:06] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testAddProductsToCart
+[2025-06-02 20:57:07] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on shop 
+[2025-06-02 20:57:08] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 10.99
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Stuffed Frog : unitPrice
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 9.99
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:09] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Fluffy Bunny : unitPrice
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 14.99
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Valentine Bear : unitPrice
+[2025-06-02 20:57:10] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on cartPage
+[2025-06-02 20:57:14] [INFO] com.planit.tests.pages.ShoppingCartPage -  web total of all product:116.9
+[2025-06-02 20:57:14] [INFO] com.planit.tests.pages.ShoppingCartPage - get the value of total from web nav bar116.9
+[2025-06-02 20:57:14] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testAddProductsToCart
+[2025-06-02 20:57:14] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testEmptyFormValidation
+[2025-06-02 20:57:15] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 20:57:17] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 20:57:17] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 20:57:17] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 20:57:17] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 20:57:19] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 20:57:19] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 20:57:19] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 20:57:19] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testEmptyFormValidation
+[2025-06-02 20:57:19] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 20:57:19] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 20:57:21] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 20:57:21] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 20:57:32] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 20:57:32] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 20:57:32] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 20:57:32] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 20:57:32] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 20:57:33] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 20:57:33] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 20:57:36] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 20:57:37] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 20:57:37] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 20:57:37] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 20:57:37] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 20:57:37] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 20:57:37] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 20:57:41] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 20:57:41] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 20:57:41] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 20:57:41] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 20:57:42] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 20:57:42] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 20:57:42] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 20:57:44] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 20:57:44] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 20:57:44] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 20:57:44] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 20:57:44] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 20:57:44] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 20:57:44] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 20:57:56] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 20:57:56] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 20:57:56] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 20:57:57] [INFO] com.planit.tests.base.BaseTest - Browser closed
+[2025-06-02 20:57:57] [INFO] com.planit.tests.listeners.TestListener - === Test Suite finished ===
+[2025-06-02 21:29:20] [INFO] com.planit.tests.listeners.TestListener - === Test Suite started ===
+[2025-06-02 21:29:32] [INFO] com.planit.tests.base.BaseTest - Browser started in chrome
+[2025-06-02 21:29:36] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testAddProductsToCart
+[2025-06-02 21:29:37] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on shop 
+[2025-06-02 21:29:38] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 10.99
+[2025-06-02 21:29:39] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:39] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:39] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Stuffed Frog : unitPrice
+[2025-06-02 21:29:39] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 9.99
+[2025-06-02 21:29:40] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:40] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:40] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:40] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:41] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:41] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Fluffy Bunny : unitPrice
+[2025-06-02 21:29:41] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 14.99
+[2025-06-02 21:29:41] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:46] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:47] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:29:47] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Valentine Bear : unitPrice
+[2025-06-02 21:29:47] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on cartPage
+[2025-06-02 21:29:50] [INFO] com.planit.tests.pages.ShoppingCartPage -  web total of all product:116.9
+[2025-06-02 21:29:50] [INFO] com.planit.tests.pages.ShoppingCartPage - get the value of total from web nav bar116.9
+[2025-06-02 21:29:50] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testAddProductsToCart
+[2025-06-02 21:29:50] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testEmptyFormValidation
+[2025-06-02 21:29:51] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:29:55] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:29:55] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:29:55] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:29:55] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:29:57] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:29:58] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:29:58] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:29:58] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testEmptyFormValidation
+[2025-06-02 21:29:58] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:29:58] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:30:01] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:30:01] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:30:12] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:30:13] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:30:13] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:30:13] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:30:13] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:30:14] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:30:14] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:30:16] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:30:16] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:30:16] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:30:16] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:30:16] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:30:17] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:30:17] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:30:20] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:30:20] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:30:20] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:30:20] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:30:20] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:30:21] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:30:21] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:30:29] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:30:29] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:30:29] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:30:29] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:30:29] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:30:30] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:30:30] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:30:36] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:30:37] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:30:37] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:30:37] [INFO] com.planit.tests.base.BaseTest - Browser closed
+[2025-06-02 21:30:37] [INFO] com.planit.tests.listeners.TestListener - === Test Suite finished ===
+[2025-06-02 21:35:54] [INFO] com.planit.tests.listeners.TestListener - === Test Suite started ===
+[2025-06-02 21:36:29] [INFO] com.planit.tests.listeners.TestListener - === Test Suite started ===
+[2025-06-02 21:36:40] [INFO] com.planit.tests.base.BaseTest - Browser started in chrome
+[2025-06-02 21:36:44] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testAddProductsToCart
+[2025-06-02 21:36:45] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on shop 
+[2025-06-02 21:36:46] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 10.99
+[2025-06-02 21:36:47] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:47] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:47] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Stuffed Frog : unitPrice
+[2025-06-02 21:36:47] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 9.99
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Fluffy Bunny : unitPrice
+[2025-06-02 21:36:48] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 14.99
+[2025-06-02 21:36:49] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:49] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:49] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:36:49] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Valentine Bear : unitPrice
+[2025-06-02 21:36:49] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on cartPage
+[2025-06-02 21:36:54] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 21.98
+[2025-06-02 21:36:54] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 10.99
+[2025-06-02 21:36:55] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 49.95
+[2025-06-02 21:36:55] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 9.99
+[2025-06-02 21:36:55] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 44.97
+[2025-06-02 21:36:55] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 14.99
+[2025-06-02 21:36:56] [INFO] com.planit.tests.pages.ShoppingCartPage -  web total of all product:116.9
+[2025-06-02 21:36:56] [INFO] com.planit.tests.pages.ShoppingCartPage - get the value of total from web nav bar116.9
+[2025-06-02 21:36:56] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testAddProductsToCart
+[2025-06-02 21:36:56] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testEmptyFormValidation
+[2025-06-02 21:36:57] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:37:00] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:37:00] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:37:00] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:37:00] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:37:02] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:37:03] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:37:03] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:37:03] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testEmptyFormValidation
+[2025-06-02 21:37:03] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:37:03] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:37:05] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:37:05] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:37:16] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:37:17] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:37:17] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:37:17] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:37:17] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:37:18] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:37:18] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:37:21] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:37:22] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:37:22] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:37:22] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:37:22] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:37:22] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:37:22] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:37:24] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:37:24] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:37:24] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:37:24] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:37:24] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:37:25] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:37:25] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:37:28] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:37:28] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:37:28] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:37:28] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:37:28] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:37:28] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:37:28] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:37:39] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:37:39] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:37:39] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:37:40] [INFO] com.planit.tests.base.BaseTest - Browser closed
+[2025-06-02 21:37:40] [INFO] com.planit.tests.listeners.TestListener - === Test Suite finished ===
+[2025-06-02 21:41:57] [INFO] com.planit.tests.listeners.TestListener - === Test Suite started ===
+[2025-06-02 21:42:08] [INFO] com.planit.tests.base.BaseTest - Browser started in chrome
+[2025-06-02 21:42:12] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testAddProductsToCart
+[2025-06-02 21:42:13] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on shop 
+[2025-06-02 21:42:14] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 10.99
+[2025-06-02 21:42:15] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:15] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:15] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Stuffed Frog : unitPrice
+[2025-06-02 21:42:16] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 9.99
+[2025-06-02 21:42:16] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:16] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:16] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:16] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Fluffy Bunny : unitPrice
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 14.99
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:42:17] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Valentine Bear : unitPrice
+[2025-06-02 21:42:20] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on cartPage
+[2025-06-02 21:42:23] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 21.98
+[2025-06-02 21:42:23] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 10.99
+[2025-06-02 21:42:24] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 49.95
+[2025-06-02 21:42:24] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 9.99
+[2025-06-02 21:42:24] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 44.97
+[2025-06-02 21:42:24] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 14.99
+[2025-06-02 21:42:24] [INFO] com.planit.tests.pages.ShoppingCartPage -  web total of all product:116.9
+[2025-06-02 21:42:25] [INFO] com.planit.tests.pages.ShoppingCartPage - get the value of total from web nav bar116.9
+[2025-06-02 21:42:25] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testAddProductsToCart
+[2025-06-02 21:42:25] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testEmptyFormValidation
+[2025-06-02 21:42:25] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:42:28] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:42:28] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:42:28] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:42:29] [INFO] com.planit.tests.pages.ContactPage - validation for blank error
+[2025-06-02 21:42:31] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:42:31] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:42:31] [INFO] com.planit.tests.pages.ContactPage - validation for blank error gone
+[2025-06-02 21:42:31] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testEmptyFormValidation
+[2025-06-02 21:42:31] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:42:32] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:42:33] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:42:33] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:42:41] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:42:41] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:42:41] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:42:41] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:42:42] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:42:43] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:42:43] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:42:44] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:42:45] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:42:45] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:42:45] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:42:45] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:42:45] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:42:45] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:42:57] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:42:57] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:42:57] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:42:57] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:42:57] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:42:58] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:42:58] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:43:00] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:43:00] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:43:00] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:43:00] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:43:00] [INFO] com.planit.tests.pages.ContactPage - user navigated in contact form
+[2025-06-02 21:43:01] [INFO] com.planit.tests.pages.ContactPage - user perform click on on blank input
+[2025-06-02 21:43:01] [INFO] com.planit.tests.pages.ContactPage - waiting for pop-up
+[2025-06-02 21:43:03] [INFO] com.planit.tests.pages.ContactPage - validation for Success message
+[2025-06-02 21:43:03] [INFO] com.planit.tests.pages.ContactPage - user perform back operation on success screen
+[2025-06-02 21:43:03] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:43:04] [INFO] com.planit.tests.base.BaseTest - Browser closed
+[2025-06-02 21:43:04] [INFO] com.planit.tests.listeners.TestListener - === Test Suite finished ===
+[2025-06-02 21:54:29] [INFO] com.planit.tests.listeners.TestListener - === Test Suite started ===
+[2025-06-02 21:54:40] [INFO] com.planit.tests.base.BaseTest - Browser started in chrome
+[2025-06-02 21:54:44] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testAddProductsToCart
+[2025-06-02 21:54:45] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on shop 
+[2025-06-02 21:54:46] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 10.99
+[2025-06-02 21:54:47] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:47] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Stuffed Frog' Price is $By.xpath: //h4[text()='Stuffed Frog']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:47] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Stuffed Frog : unitPrice
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 9.99
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Fluffy Bunny' Price is $By.xpath: //h4[text()='Fluffy Bunny']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:48] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Fluffy Bunny : unitPrice
+[2025-06-02 21:54:49] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: 14.99
+[2025-06-02 21:54:49] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:49] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:49] [INFO] com.planit.tests.pages.ShoppingCartPage - Name of product the: 'Valentine Bear' Price is $By.xpath: //h4[text()='Valentine Bear']/following::a[contains(text(),'Buy')][1]
+[2025-06-02 21:54:49] [INFO] com.planit.tests.pages.ShoppingCartPage - price of product: Valentine Bear : unitPrice
+[2025-06-02 21:54:51] [INFO] com.planit.tests.pages.ShoppingCartPage - user action on cartPage
+[2025-06-02 21:54:53] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 21.98
+[2025-06-02 21:54:53] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 10.99
+[2025-06-02 21:54:54] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 49.95
+[2025-06-02 21:54:54] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 9.99
+[2025-06-02 21:54:54] [INFO] com.planit.tests.pages.ShoppingCartPage - web sub total value: 44.97
+[2025-06-02 21:54:54] [INFO] com.planit.tests.pages.ShoppingCartPage - Product Price on web 14.99
+[2025-06-02 21:54:54] [INFO] com.planit.tests.pages.ShoppingCartPage -  web total of all product:116.9
+[2025-06-02 21:54:55] [INFO] com.planit.tests.pages.ShoppingCartPage - get the value of total from web nav bar116.9
+[2025-06-02 21:54:55] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testAddProductsToCart
+[2025-06-02 21:54:55] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testEmptyFormValidation
+[2025-06-02 21:54:55] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:54:55] [INFO] com.planit.tests.pages.ContactPage - User navigated to contact form
+[2025-06-02 21:54:57] [INFO] com.planit.tests.pages.ContactPage - User clicked on submit with blank input
+[2025-06-02 21:54:57] [INFO] com.planit.tests.pages.ContactPage - Validating if error message is displayed
+[2025-06-02 21:54:57] [INFO] com.planit.tests.pages.ContactPage - Validating if error message is displayed
+[2025-06-02 21:54:58] [INFO] com.planit.tests.pages.ContactPage - Validating if error message is displayed
+[2025-06-02 21:54:59] [INFO] com.planit.tests.pages.ContactPage - Validating if error message has disappeared
+[2025-06-02 21:54:59] [INFO] com.planit.tests.pages.ContactPage - Validating if error message has disappeared
+[2025-06-02 21:54:59] [INFO] com.planit.tests.pages.ContactPage - Validating if error message has disappeared
+[2025-06-02 21:55:00] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testEmptyFormValidation
+[2025-06-02 21:55:00] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:55:00] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:00] [INFO] com.planit.tests.pages.ContactPage - User navigated to contact form
+[2025-06-02 21:55:02] [INFO] com.planit.tests.pages.ContactPage - User clicked on submit with blank input
+[2025-06-02 21:55:02] [INFO] com.planit.tests.pages.ContactPage - Waiting for feedback modal to disappear
+[2025-06-02 21:55:04] [INFO] com.planit.tests.pages.ContactPage - Getting success message text
+[2025-06-02 21:55:04] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:04] [INFO] com.planit.tests.pages.ContactPage - User clicked back button on success screen
+[2025-06-02 21:55:04] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:55:04] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:55:04] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:05] [INFO] com.planit.tests.pages.ContactPage - User navigated to contact form
+[2025-06-02 21:55:05] [INFO] com.planit.tests.pages.ContactPage - User clicked on submit with blank input
+[2025-06-02 21:55:05] [INFO] com.planit.tests.pages.ContactPage - Waiting for feedback modal to disappear
+[2025-06-02 21:55:07] [INFO] com.planit.tests.pages.ContactPage - Getting success message text
+[2025-06-02 21:55:07] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:08] [INFO] com.planit.tests.pages.ContactPage - User clicked back button on success screen
+[2025-06-02 21:55:08] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:55:08] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:55:08] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:08] [INFO] com.planit.tests.pages.ContactPage - User navigated to contact form
+[2025-06-02 21:55:08] [INFO] com.planit.tests.pages.ContactPage - User clicked on submit with blank input
+[2025-06-02 21:55:08] [INFO] com.planit.tests.pages.ContactPage - Waiting for feedback modal to disappear
+[2025-06-02 21:55:20] [INFO] com.planit.tests.pages.ContactPage - Getting success message text
+[2025-06-02 21:55:20] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:21] [INFO] com.planit.tests.pages.ContactPage - User clicked back button on success screen
+[2025-06-02 21:55:21] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:55:21] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:55:21] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:21] [INFO] com.planit.tests.pages.ContactPage - User navigated to contact form
+[2025-06-02 21:55:22] [INFO] com.planit.tests.pages.ContactPage - User clicked on submit with blank input
+[2025-06-02 21:55:22] [INFO] com.planit.tests.pages.ContactPage - Waiting for feedback modal to disappear
+[2025-06-02 21:55:23] [INFO] com.planit.tests.pages.ContactPage - Getting success message text
+[2025-06-02 21:55:23] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:23] [INFO] com.planit.tests.pages.ContactPage - User clicked back button on success screen
+[2025-06-02 21:55:23] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:55:23] [INFO] com.planit.tests.listeners.TestListener - 🟡 Test started: testValidFormSubmission
+[2025-06-02 21:55:23] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:24] [INFO] com.planit.tests.pages.ContactPage - User navigated to contact form
+[2025-06-02 21:55:24] [INFO] com.planit.tests.pages.ContactPage - User clicked on submit with blank input
+[2025-06-02 21:55:24] [INFO] com.planit.tests.pages.ContactPage - Waiting for feedback modal to disappear
+[2025-06-02 21:55:30] [INFO] com.planit.tests.pages.ContactPage - Getting success message text
+[2025-06-02 21:55:30] [INFO] com.planit.tests.pages.ContactPage - Waiting for modal-backdrop to disappear...
+[2025-06-02 21:55:30] [INFO] com.planit.tests.pages.ContactPage - User clicked back button on success screen
+[2025-06-02 21:55:30] [INFO] com.planit.tests.listeners.TestListener - ✅ Test passed: testValidFormSubmission
+[2025-06-02 21:55:30] [INFO] com.planit.tests.base.BaseTest - Browser closed
+[2025-06-02 21:55:30] [INFO] com.planit.tests.listeners.TestListener - === Test Suite finished ===
