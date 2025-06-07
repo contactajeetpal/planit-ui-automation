@@ -1,12 +1,11 @@
 package com.planit.tests.pages;
 
-import java.time.Duration;
+
 
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import com.planit.tests.base.BaseTest;
 import com.planit.tests.utilities.Utils;
@@ -14,19 +13,10 @@ import com.planit.tests.utilities.Utils;
 public class ContactPage extends BaseTest {
     private static final Logger logger = Utils.getLogger(ContactPage.class);
 
-   
-    public void waitForModalToDisappear() {
-        try {
-            logger.info("Waiting for modal-backdrop to disappear...");
-            new WebDriverWait(driver, Duration.ofSeconds(15))
-                .until(ExpectedConditions.invisibilityOfElementLocated(By.className("modal-backdrop")));
-        } catch (Exception e) {
-            logger.warn("Modal backdrop did not disappear in time", e);
-        }
-    }
+ 
 
     public void navigateToContact() {
-        waitForModalToDisappear();
+   
         Utils.waitForClickable(getBy("headerContact"), 10).click();
         logger.info("User navigated to contact form");
     }
@@ -37,7 +27,7 @@ public class ContactPage extends BaseTest {
     }
 
     public void clickBackBtn() {
-        waitForModalToDisappear();
+       
         Utils.waitForClickable(getBy("backBtn"), 10).click();
         logger.info("User clicked back button on success screen");
     }

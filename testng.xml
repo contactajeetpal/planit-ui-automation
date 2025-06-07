@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite">
+<suite name="Suite" parallel="false">
 <listeners>
     <listener class-name="com.planit.tests.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Test">
     <classes>
       <class name="com.planit.tests.testcases.ShoppingCartTest"/>
       <class name="com.planit.tests.testcases.ContactFormTest"/>

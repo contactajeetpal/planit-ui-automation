@@ -45,7 +45,7 @@ public class BaseTest {
 	@BeforeTest
 	public void setup()
 	{
-	if(driver==null) {
+	if(driver==null) {//Avoid re-initializing driver:
 		try {
 		String locationForConfig=System.getProperty("user.dir") + "/src/test/resources/ConfigReader/jupiterConfig.properties";
 		String locationForLocator=System.getProperty("user.dir") + "/src/test/resources/ConfigReader/locators.properties";
@@ -80,7 +80,7 @@ public class BaseTest {
 	@AfterTest
 	public void teardown() {
 		driver.quit();
-		System.out.print("Browser close:::");
+		
 		logger.info("Browser closed");
 	}
 }
